@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Play-Regular.ttf';
+    src: url(../assets/fonts/Play-Regular.ttf);
+
+}
+body{
+    font-family: 'Play-Regular.ttf', sans-serif;
+    color: rgb(219, 219, 15);
+    line-height: 1;
+    margin-bottom: 0;
+}
+.vistaEscritorio{
+    display: inline-block;
+    text-align: right;
+}
+.vistaMobile{
+    display: none;
+}
+ .header{
+    background-color: rgb(219, 219, 15);
+    height: 10vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: inline-block;
+    text-align: right;
+}
+.listaItem{
+    display: block;
+    text-align: right;
+}
+.divAudio{
+    display: inline-block;
+    .audio{
+        width: 200px;
+        height: 20px;
+    }
+}
+.tituloPrincipal{
+    font-size: 6rem;
+    color: rgb(219, 219, 15);
+    text-align: center;
+    background-color: black;
+}
+.tituloSecundario{
+    font-size: 2rem;
+    color:  rgb(219, 219, 15);
+    text-align: center;
+    background-color: black;
+}
+.link{
+    font-size: 20px;
+    color: gray;
+    text-decoration: none;
+    margin: 5px;
+}
+body{
+    background-color: black;
+    text-decoration: none;
+    color:  rgb(219, 219, 15);
+    border: 1px solid black;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.contenedorTarjetas{
+    width: 100%;
+    margin: 2px auto;
+    background: rgb(0, 0, 0);
+    text-align: center;
+}
+.tarjeta{
+    width: 30%;
+    display: inline-block;
+    border-radius: 10px;
+    text-align: center;
+}
+.tarjeta img{
+    width: 100%;
+    object-fit: cover;
+}
+.estasListo{
+    display: inline;
+    color: white;
+}
+.listo{
+    text-align: center;
+    font-size: 50px;
+}
+.alien{
+    text-align: center;
+    font-size: 18px;  
+    margin-bottom: 10px;
+}
+.imagePuno{
+    display: inline;
+    text-align: right;
+    position: relative;
+}
+.redes{
+    display: inline-block;
+    text-align: right;
+}
+.wp{
+    display: inline-block;
+    text-align: right;
+}
+.copy{
+    font-size: 14px;
+    text-align: center;
+    color: gray;
+} 

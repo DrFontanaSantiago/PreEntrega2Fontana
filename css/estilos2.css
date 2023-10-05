@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Play-Regular.ttf';
+    src: url(../assets/fonts/Play-Regular.ttf);
+
+}
+.vistaMobil{
+    display: none;
+}
+@media screen and (max-width: 767px){
+    .vistaEscritorio{
+        display: none;
+    }
+    .vistaMobil{
+        display: flex;
+    }
+}
+.backColorNav{
+   background-color:  rgb(219, 219, 15);
+}
+.textoBody{
+    color: rgb(207, 196, 196);
+}
