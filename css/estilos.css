@@ -109,6 +109,9 @@ body{
 .wp{
     display: inline-block;
     text-align: right;
+    margin-top: 50px;
+    margin: 10px;
+    margin-right: 50px;
 }
 .copy{
     font-size: 14px;

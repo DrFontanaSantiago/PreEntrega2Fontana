@@ -29,3 +29,9 @@
 .textoShop{
     text-align: center;
 }
+.lineaFooter{
+    border-bottom: 2px solid rgb(219, 219, 15);
+    border-top: 2px solid  rgb(219, 219, 15);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
