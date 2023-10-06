@@ -13,9 +13,9 @@
     display: none;
 }
 @media screen and (max-width: 767px){
-    .vistaEscritorio{
+    /* .vistaEscritorio{
         display: none;
-    }
+    } */
     .vistaMobil{
         display: flex;
     }
