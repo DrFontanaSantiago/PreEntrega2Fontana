@@ -9,20 +9,23 @@
     src: url(../assets/fonts/Play-Regular.ttf);
 
 }
+.backColorNav{
+    background-color:  rgb(219, 219, 15);
+    text-decoration: none;
+    color: black;
+    display: block;
+    text-align: end;
+}
 body{
     font-family: 'Play-Regular.ttf', sans-serif;
     color: rgb(219, 219, 15);
     line-height: 1;
     margin-bottom: 0;
 }
-.vistaEscritorio{
-    display: inline-block;
-    text-align: right;
+.textoBody{
+    color: rgb(207, 196, 196);
 }
-.vistaMobile{
-    display: none;
-}
- .header{
+.header{
     background-color: rgb(219, 219, 15);
     height: 10vh;
     width: 100%;
@@ -41,6 +44,13 @@ body{
         width: 200px;
         height: 20px;
     }
+}
+.tarjetas{
+    width: 500px;
+    height: 700px;
+}
+.textoShop{
+    text-align: center;
 }
 .tituloPrincipal{
     font-size: 6rem;
@@ -67,22 +77,6 @@ body{
     border: 1px solid black;
     font-size: 1.5rem;
     font-weight: 400;
-}
-.contenedorTarjetas{
-    width: 100%;
-    margin: 2px auto;
-    background: rgb(0, 0, 0);
-    text-align: center;
-}
-.tarjeta{
-    width: 30%;
-    display: inline-block;
-    border-radius: 10px;
-    text-align: center;
-}
-.tarjeta img{
-    width: 100%;
-    object-fit: cover;
 }
 .estasListo{
     display: inline;
@@ -118,3 +112,13 @@ body{
     text-align: center;
     color: gray;
 } 
+.lineaFooter{
+    border-bottom: 2px solid rgb(219, 219, 15);
+    border-top: 2px solid  rgb(219, 219, 15);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+@media screen and (max-width: 768) {
+ 
+}
+

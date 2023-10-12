@@ -6,74 +6,126 @@
     <title>Entrena con nosotros | Area 51</title>
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/estilos.css">
-    <link rel="stylesheet" href="../css/estilos2.css">
     <link rel="icon" href="../ovni.png" type="image/png">
 </head>
 <body>
-    <header class="d-flex flex-column">
-        <div class="vistaMobile">
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <div class="container-fluid">
-                  <a class="navbar-brand" href="#">Navbar</a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </nav>
-        </div>
-        <section class="container-fluid">
-            <div class="row">
-                <div class="divAudio backColorNav col">
-                    <audio class="audio" controls autoplay>
-                        <source src="./assets/SOCIO ｜ T&K - SUCIO.mp3" type="audio/mpeg" >
-                    </audio>
-                 </div>
-                 <div class="vistaEscritorio backColorNav col">
-                    <nav class="listaItem">
-                        <a class="link" href="../index.html">Inicio</a>
-                        <a class="link" href="../pages/quienes_somos.html">Quienes somos</a>
-                        <a class="link" href="../pages/shop.html">Shop</a>
-                        <a class="link" href="./entrena_con_nosotros.html">Entrena con nosotros</a>
-                        <a class="link" href="./contacto.html">Contacto</a>
-                    </nav>
-                 </div>
-            </div>
-        </section> 
-        <img src="../assets/entrena_con_nosotros.jpg" alt="entrena con nosotros" width="500" loading="lazy">
-        <h1>Entrena con nosotros</h1>
-
-    </header>
+  <header>
+    <div class="vistaMobile row backColorNav">
+       <nav class="navbar navbar-expand-sm navbar-dark">
+           <div class="container">
+             <a class="navbar-brand" href="../index.html">Inicio</a>
+             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+             </button>
+             <div class="collapse navbar-collapse" id="navbarNav">
+               <ul class="navbar-nav">
+                 <li class="nav-item">
+                   <a class="nav-link" href="../pages/quienes_somos.html">Quienes somos</a>
+                 </li>
+                 <li class="nav-item">
+                   <a class="nav-link" href="../pages/shop.html">Shop</a>
+                 </li>
+                 <li class="nav-item">
+                   <a class="nav-link" href="./entrena_con_nosotros.html">Entrena con nosotros</a>
+                 </li> <li class="nav-item">
+                   <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                 </li>
+               </ul>
+             </div>
+           </div>
+         </nav>
+   </div>
+   <div class="divAudio">
+       <audio class="audio" controls autoplay>
+           <source src="../assets/SOCIO ｜ T&K - SUCIO.mp3" type="audio/mpeg" >
+       </audio>
+    </div>
+    <h1 class="tituloPrincipal">Área 51</h1>
+    <h2 class="tituloSecundario">Centro de entrenamiento</h2>
+</header>
     <main>
+      <div id="carouselExampleControls" class="carousel slide container-fluid tarjetas" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../assets/PHOTO-2023-10-04-22-41-11.jpg" class="d-block w-100" alt="lauta">
+          </div>
+          <div class="carousel-item">
+            <img src="../assets/PHOTO-2023-10-04-22-41-13 - copia.jpg" class="d-block w-100" alt="iv">
+          </div>
+          <div class="carousel-item">
+            <img src="../assets/PHOTO-2023-10-04-22-41-12 - copia.jpg" class="d-block w-100" alt="juan">
+          </div>
+          <div class="carousel-item">
+            <img src="../assets/PHOTO-2023-10-04-22-41-13.jpg" class="d-block w-100" alt="juan">
+          </div> 
+          <div class="carousel-item">
+            <img src="../assets/PHOTO-2023-10-04-22-41-12 - copia (2).jpg" class="d-block w-100" alt="lasa">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div>
+        <h1>Entrena con nosotros</h1>
+        <div class="container-fluid">
+          <p>¡Bienvenido a nuestro centro de kickboxing! En Área 51, te ofrecemos la oportunidad de entrenar con nosotros y mejorar tus habilidades en el emocionante mundo del kickboxing. Ya sea que busques entrenamiento recreativo para mantenerte en forma o desees competir a nivel profesional, tenemos un programa diseñado para ti.
+          </p>
+        </div>
+        <div>
+          <h3>Horarios de Entrenamiento Recreativo</h3>
+          <p>
+            Nuestro programa de entrenamiento recreativo está diseñado para todas las edades y niveles de habilidad. Aquí tienes nuestros horarios de entrenamiento para asegurarte de que puedas unirte a nosotros en el momento que más te convenga: 
+          </p>
+          <p>
+            Lunes y Miércoles:
 
+            Sesión de Tarde: 17:00 - 19:00
+            Sesión de Noche: 19:30 - 21:30
+            Martes y Jueves:
+            
+            Sesión de Tarde: 17:00 - 19:00
+            Sesión de Noche: 19:30 - 21:30
+            Sábados:
+            
+            Sesión de Mañana: 10:00 - 12:00
+          </p>
+          <h3>Horarios de Entrenamiento de Competición</h3>
+          <p>
+            Para aquellos que buscan llevar su kickboxing al siguiente nivel y competir en torneos, ofrecemos un riguroso programa de entrenamiento de competición. Aquí están nuestros horarios para aspirantes a competidores:
+          </p>
+          <p>
+            Lunes a Viernes:
+            Entrenamiento de Mañana: 09:00 - 11:00
+            Entrenamiento de Tarde: 16:00 - 18:00
+            Entrenamiento de Noche: 20:00 - 22:00
+            Sábados:
+            Sesión de Mañana: 10:00 - 12:00
+          </p>
+          <p>
+            Recuerda que nuestros instructores altamente calificados están aquí para guiarte en tu viaje, ya sea que estés buscando mantener un estilo de vida activo o tengas ambiciones de competir a nivel profesional.
+            Si tienes alguna pregunta o deseas unirte a nosotros en cualquiera de nuestras sesiones de entrenamiento, no dudes en ponerte en contacto con nosotros a través de la página de Contacto. ¡Esperamos verte en el gimnasio!
+          </p>
+        </div> 
+      </div>
     </main>
     <footer>
       <section class="container-fluid">
           <div class="row lineaFooter">
-              <div class="col-4 col-sm-12 col-md-3">
+              <div class="col-sm-12 col-md-3">
                   <h3>Ubicacion</h3>
                   <p>Calle San Martin 4058</p>
                   <p>Mar del Plata, Buenos Aires, Argentina</p>
               </div>
-              <div class="col-7 col-sm-12 col-md-6">
+              <div class="col-sm-12 col-md-6">
                   <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12577.43093954996!2d-57.5616739!3d-37.9921155!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584d9cac3f7473f%3A0x5646f2b78ec3ca42!2sThor!5e0!3m2!1ses!2sar!4v1693876862507!5m2!1ses!2sar" width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
               </div>
-              <div class="col-1 col-sm-12 col-md-3  redes">
+              <div class="col-sm-12 col-md-3  redes">
                   <a class="wp" href="https://www.whatsapp.com" target="_blank">
                       <i class="fa-brands fa-whatsapp fa-beat fa-lg" style="color: rgb(219, 219, 15);"></i>
                   </a>
