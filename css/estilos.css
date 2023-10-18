@@ -7,36 +7,12 @@
 @font-face {
     font-family: 'Play-Regular.ttf';
     src: url(../assets/fonts/Play-Regular.ttf);
-
 }
 .backColorNav{
     background-color:  rgb(219, 219, 15);
-    text-decoration: none;
-    color: black;
-    display: block;
-    text-align: end;
-}
-body{
-    font-family: 'Play-Regular.ttf', sans-serif;
-    color: rgb(219, 219, 15);
-    line-height: 1;
-    margin-bottom: 0;
 }
 .textoBody{
     color: rgb(207, 196, 196);
-}
-.header{
-    background-color: rgb(219, 219, 15);
-    height: 10vh;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    display: inline-block;
-    text-align: right;
-}
-.listaItem{
-    display: block;
-    text-align: right;
 }
 .divAudio{
     display: inline-block;
@@ -46,8 +22,10 @@ body{
     }
 }
 .tarjetas{
-    width: 500px;
-    height: 700px;
+    width: 100%;
+    height: 50%;
+    max-width: 100%; 
+    overflow-x: hidden;  
 }
 .textoShop{
     text-align: center;
@@ -57,6 +35,9 @@ body{
     color: rgb(219, 219, 15);
     text-align: center;
     background-color: black;
+    .tituloSecundario{
+        font-size: 2rem;
+    }
 }
 .tituloSecundario{
     font-size: 2rem;
@@ -70,11 +51,12 @@ body{
     text-decoration: none;
     margin: 5px;
 }
-body{
+body {
+    font-family: 'Play-Regular.ttf', sans-serif;
     background-color: black;
-    text-decoration: none;
-    color:  rgb(219, 219, 15);
-    border: 1px solid black;
+    color: rgb(219, 219, 15);
+    line-height: 1;
+    margin-bottom: 0;
     font-size: 1.5rem;
     font-weight: 400;
 }
@@ -91,18 +73,12 @@ body{
     font-size: 18px;  
     margin-bottom: 10px;
 }
-.imagePuno{
-    display: inline;
-    text-align: right;
-    position: relative;
-}
 .redes{
     display: inline-block;
     text-align: right;
 }
 .wp{
     display: inline-block;
-    text-align: right;
     margin-top: 50px;
     margin: 10px;
     margin-right: 50px;
@@ -117,8 +93,5 @@ body{
     border-top: 2px solid  rgb(219, 219, 15);
     margin-top: 10px;
     margin-bottom: 10px;
-}
-@media screen and (max-width: 768) {
- 
 }
 
