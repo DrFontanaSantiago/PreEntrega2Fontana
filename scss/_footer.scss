@@ -1,0 +1,17 @@
+.footer{
+    .redes{
+        display: inline-block;
+        text-align: right;
+    }
+    .lineaFooter{
+        border-bottom: 2px solid $color-texto;
+        border-top: 2px solid $color-texto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+.copy{
+    font-size: 14px;
+    text-align: center;
+    color: gray;
+} 

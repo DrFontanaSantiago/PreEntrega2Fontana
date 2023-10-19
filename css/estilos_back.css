@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Play-Regular';
+    src: url(../assets/fonts/Play-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'PermanentMarker-Regular';
+    src: url(../assets/fonts/PermanentMarker-Regular.ttf) format('truetype');
+}
+.backColorNav{
+    background-color:  rgb(219, 219, 15);
+}
+.textoBody{
+    color: rgb(207, 196, 196);
+}
+.divAudio{
+    display: inline-block;
+    .audio{
+        width: 200px;
+        height: 20px;
+    }
+}
+.tarjetas{
+    width: 100%;
+    height: 50%;
+    max-width: 100%; 
+    overflow-x: hidden;  
+}
+.textoShop{
+    text-align: center;
+}
+.tituloPrincipal{
+    font-size: 6rem;
+    color: rgb(219, 219, 15);
+    text-align: center;
+    background-color: black;
+    .tituloSecundario{
+        font-size: 2rem;
+    }
+}
+.tituloSecundario{
+    font-size: 2rem;
+    color:  rgb(219, 219, 15);
+    text-align: center;
+    background-color: black;
+}
+.link{
+    font-size: 20px;
+    color: gray;
+    text-decoration: none;
+    margin: 5px;
+}
+body {
+    font-family: 'Play-Regular', sans-serif;
+    background-color: black;
+    color: rgb(219, 219, 15);
+    line-height: 1;
+    margin-bottom: 0;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.estasListo {
+    font-family: 'PermanentMarker-Regular', sans-serif;
+    display: inline;
+    color: white;
+}
+.listo{
+    text-align: center;
+    font-size: 50px;
+}
+.alien{
+    text-align: center;
+    font-size: 18px;  
+    margin-bottom: 10px;
+}
+.redes{
+    display: inline-block;
+    text-align: right;
+}
+.wp{
+    display: inline-block;
+    margin-top: 50px;
+    margin: 10px;
+    margin-right: 50px;
+}
+.copy{
+    font-size: 14px;
+    text-align: center;
+    color: gray;
+} 
+.lineaFooter{
+    border-bottom: 2px solid rgb(219, 219, 15);
+    border-top: 2px solid  rgb(219, 219, 15);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

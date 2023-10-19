@@ -3,7 +3,6 @@
   display: inline;
   color: white;
 }
-
 .estasListo .listo {
   text-align: center;
   font-size: 50px;
@@ -54,33 +53,27 @@ body {
   font-size: 1.5rem;
   font-weight: 400;
 }
-
 body .backColorNav {
   background-color: rgb(219, 219, 15);
 }
-
 body .divAudio {
   display: inline-block;
 }
-
 body .divAudio .audio {
   width: 200px;
   height: 20px;
 }
-
 body .tarjetas {
   width: 100%;
   height: 50%;
   max-width: 100%;
   overflow-x: hidden;
 }
-
 body .tituloPrincipal {
   font-size: 6rem;
   color: rgb(219, 219, 15);
   text-align: center;
 }
-
 body .tituloSecundario {
   font-size: 2rem;
   color: rgb(219, 219, 15);
@@ -91,7 +84,6 @@ body .tituloSecundario {
   display: inline-block;
   text-align: right;
 }
-
 .footer .lineaFooter {
   border-bottom: 2px solid rgb(219, 219, 15);
   border-top: 2px solid rgb(219, 219, 15);
@@ -103,6 +95,4 @@ body .tituloSecundario {
   font-size: 14px;
   text-align: center;
   color: gray;
-} 
-
-/*# sourceMappingURL=estilos.css.map */
+}/*# sourceMappingURL=estilos.css.map */
