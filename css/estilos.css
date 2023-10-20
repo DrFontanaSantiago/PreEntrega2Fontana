@@ -64,16 +64,21 @@ body {
 }
 
 body .backColorNav {
-  background-color: rgb(219, 219, 15);
+  background-color: black;
 }
 
 body .divAudio {
-  display: inline-block;
+  display: flex;
+  justify-content: flex-end;
 }
 
-body .divAudio .audio {
-  width: 200px;
-  height: 20px;
+body .divAudio .audio-container {
+  margin-right: 20px;
+}
+
+body .divAudio .audio-container .audio {
+  width: 100px;
+  height: 10px;
 }
 
 body .tarjetas {
@@ -87,6 +92,8 @@ body .tituloPrincipal {
   font-size: 6rem;
   color: rgb(219, 219, 15);
   text-align: center;
+  background: rgb(0, 0, 0);
+  background-image: linear-gradient(to bottom, #000000, #080707, #100e0e, #151313, #1a1717);
 }
 
 body .tituloSecundario {

@@ -7,13 +7,17 @@ body {
     font-size: 1.5rem;
     font-weight: 400;
     .backColorNav{
-        background-color: $color-texto;
+        background-color: black;
     }
-    .divAudio{
-        display: inline-block;
-        .audio{
-            width: 200px;
-            height: 20px;
+    .divAudio {
+        display: flex;
+        justify-content: flex-end;
+        .audio-container {
+            margin-right: 20px;
+            .audio {
+                width: 100px;
+                height: 10px;
+            }
         }
     }
     .tarjetas{
@@ -26,6 +30,9 @@ body {
         font-size: 6rem;
         color: $color-texto;
         text-align: center;
+        background: rgb(0,0,0);
+        // background: linear-gradient(173deg, rgba(0,0,0,1) 0%, rgba(21,21,23,1) 35%, rgba(34,34,38,1) 100%);
+        background-image: linear-gradient(to bottom, #000000, #080707, #100e0e, #151313, #1a1717);
     }
     .tituloSecundario{
         font-size: 2rem;
