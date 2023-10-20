@@ -30,6 +30,14 @@
   margin-bottom: 10px;
 }
 
+.imagePuno {
+  transition: transform 0, 5s ease-in-out;
+}
+
+.botonPuno:hover .imagePuno {
+  transform: scale(1.2);
+}
+
 * {
   margin: 0;
   padding: 0;

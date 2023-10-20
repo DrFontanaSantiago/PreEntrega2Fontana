@@ -24,3 +24,9 @@
     font-size: 18px;  
     margin-bottom: 10px;
 }
+.imagePuno{
+    transition: transform 0,5s ease-in-out;
+}
+.botonPuno:hover .imagePuno {
+    transform: scale(1.2);
+}
