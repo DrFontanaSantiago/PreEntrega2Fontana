@@ -11,12 +11,7 @@
     </head>
     <body class="body">
         <header>
-            <div class="divAudio">
-                <audio class="audio-container" controls autoplay>
-                    <source src="./assets/SOCIO ｜ T&K - SUCIO.mp3" type="audio/mpeg" >
-                </audio>
-             </div>
-            <div class="backColorNav">
+            <div>
                 <nav class="navbar navbar-expand-sm navbar-dark">
                     <div class="container">
                       <a class="navbar-brand" href="./index.html">
@@ -47,47 +42,74 @@
                 </nav>
             </div>
             <div>
-                 <h1 class="tituloPrincipal">Área 51</h1>
-                 <h2 class="tituloSecundario">Centro de entrenamiento</h2>
-            </div>
+                <h1 class="tituloPrincipal">Área 51</h1>
+                <h2 class="tituloSecundario">Centro de entrenamiento</h2>
+                <video autoplay muted loop id="videoFondo">
+                   <source src="./assets/SOCIO - A R E A  5 1  _ Prod.Makaveli (VIDEO OFICIAL) (1).mp4" type="video/mp4">
+               </video>   
+           </div>
         </header>
         <main>
-            <img src="./assets/fondoindex.jpg" alt="fondo" width="100%">
-            <section class="container-fluid tarjetas">
+            <div class="container-fluid">
                 <div class="row">
                     <div class="col-sm-12 col-md-4">
-                        <a class="link" href="./pages/quienes_somos.html">
-                            <img class="respon" src="./assets/quienessomos1.jpg" alt="quienes_somos"  loading="lazy">
-                            <h2>Quienes somos</h2>
-                        </a>
+                        <div class="card bg-dark">
+                            <img src="./assets/quienessomos1.jpg" class="card-img-top bn-image" alt="quienes_somos">
+                            <div class="card-body">
+                                <h2 class="card-title text-light">Quienes somos</h2>
+                                <a href="./pages/quienes_somos.html" class="btn btn-dark">Más información</a>
+                            </div>
+                        </div>
                     </div>
                     <div class="col-sm-12 col-md-4">
-                        <a class="link" href="./pages/entrena_con_nosotros.html">
-                            <img class="respon" src="./assets/entrena_con_nosotros.jpg" alt="entrena_con_nosotros"  loading="lazy">
-                            <h2>Entrena con nosotros</h2>
-                        </a>
+                        <div class="card bg-dark">
+                            <img src="./assets/entrena_con_nosotros.jpg" class="card-img-top bn-image" alt="entrena_con_nosotros">
+                            <div class="card-body">
+                                <h2 class="card-title text-light">Entrena con nosotros</h2>
+                                <a href="./pages/entrena_con_nosotros.html" class="btn btn-dark">Más información</a>
+                            </div>
+                        </div>
                     </div>
                     <div class="col-sm-12 col-md-4">
-                        <a class="link" href="./pages/contacto.html">
-                            <img class="respon" src="./assets/contacto.jpg" alt="contacto"  loading="lazy">
-                            <h2>Contacto</h2>
-                        </a>
+                        <div class="card bg-dark">
+                            <img src="./assets/contacto.jpg" class="card-img-top bn-image" alt="contacto">
+                            <div class="card-body">
+                                <h2 class="card-title text-light">Contacto</h2>
+                                <a href="./pages/contacto.html" class="btn btn-dark">Más información</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </section>
-        </main>
-        <section class="estasListo">
-            <div class="listo">
-                <p>Estas listo??</p>
-                <a class="botonPuno" href="./pages/contacto.html">
-                    <img class="imagePuno" src="./assets/e6b7498e58c7ded7e38ac72554e17a7a.png" alt="Puño golpeando hacia la pantalla en Área 51" width="80" height="80" loading="lazy">
-                </a>
-            </div>
-            <div class="alien">
-                <p>Para entrenar como un Alien</p>
-            </div>
-        </section>
-        <footer>
+            </div>   
+            <section class="container mt-5">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 textoBody">
+                        <h3>Sponsors</h3>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <img src="./assets/thorgym.jpg" alt="thor_gimnasio" width="100">
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <img src="./assets/normansuplementos.jpg" alt="norman_suplementos_deportivos" width="100">
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <img src="./assets/tribalequipamiento.jpg" alt="tribal_equipamiento_profesional" width="100">
+                    </div>
+                </div>    
+            </section>    
+            <section class="estasListo mt-5">
+                <div class="listo">
+                    <p>Estas listo??</p>
+                    <a class="botonPuno" href="./pages/contacto.html">
+                        <img class="imagePuno" src="./assets/e6b7498e58c7ded7e38ac72554e17a7a.png" alt="Puño golpeando hacia la pantalla en Área 51" width="80" height="80" loading="lazy">
+                    </a>
+                </div>
+                <div class="alien">
+                    <p>Para entrenar como un Alien</p>
+                </div>
+            </section>  
+        </main>         
+        <!-- <footer>
             <section class="container-fluid">
                 <div class="row lineaFooter">
                     <div class="col-sm-12 col-md-3">
@@ -108,10 +130,38 @@
                     </div>
                 </div>   
             </section>
-            <section class="copy">
-                Copyright. Todos los derechos reservados.
-            </section>
-        </footer>
+           
+        </footer> -->
+        <footer class="container-fluid mt-5 lineaFooter">
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="./assets/logo.png" alt="Logo Area 51" width="100">
+                </div>
+                <div class="col-md-3">
+                    <h4>Nos encontras en</h4>
+                    <p>Calle San Martin 4058</p>
+                    <p>Mar del Plata, Buenos Aires, Argentina</p>
+                </div>
+                <div class="col-md-3">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12577.43093954996!2d-57.5616739!3d-37.9921155!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584d9cac3f7473f%3A0x5646f2b78ec3ca42!2sThor!5e0!3m2!1ses!2sar!4v1693876862507!5m2!1ses!2sar" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="col-md-3">
+                    <h5>Redes Sociales</h5>
+                    <a href="https://www.whatsapp.com" target="_blank">
+                        <i class="fab fa-whatsapp fa-2x"></i>
+                    </a>
+                    <a href="https://www.instagram.com/tu-instagram" target="_blank">
+                        <i class="fab fa-instagram fa-2x"></i>
+                    </a>
+                    <a href="https://www.youtube.com/tu-canal" target="_blank">
+                        <i class="fab fa-youtube fa-2x"></i>
+                    </a>
+                </div>
+            </div>
+        </footer> 
+        <section class="copy">
+            Copyright. Todos los derechos reservados.
+        </section>       
         <script src="./js/bootstrap.bundle.min.js"></script>
     </body>
 </html>
