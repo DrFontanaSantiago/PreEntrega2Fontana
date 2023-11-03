@@ -96,10 +96,6 @@ body .tituloSecundario {
   filter: grayscale(0%);
 }
 
-.footer {
-  margin: 10px;
-}
-
 .lineaFooter {
   border-bottom: 2px solid gray;
   border-top: 2px solid gray;
@@ -132,7 +128,6 @@ body .tituloSecundario {
   background-image: url(../assets/fondo_contacto.jpg);
   background-size: 100vw 100vh;
   background-attachment: fixed;
-  margin: 0;
 }
 
 .form {
@@ -143,6 +138,17 @@ body .tituloSecundario {
   box-sizing: border-box;
   margin-top: 20px;
   border-radius: 20px;
+}
+
+.map {
+  width: 900px;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  border-radius: 20px;
+  margin-bottom: 30px;
 }
 
 .textBlack {
