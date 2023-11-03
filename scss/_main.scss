@@ -1,0 +1,41 @@
+.bodyCont{
+    background-image: url(../assets/bosque_niebla_alien.jpg);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    margin: 0;
+}
+.form{
+    width: 450px;
+    margin: auto;
+    background: rgba(0,0,0,0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.textBlack{
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+}
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 200
+    px;
+}
+#enviar{
+    background-color: #31384a;
+    padding: 20px;
+}
+#limpiar{
+    background-color: rgba(255, 125, 115, 0.863);
+}
