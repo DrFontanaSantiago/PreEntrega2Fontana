@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .estasListo {
   font-family: "PermanentMarker-Regular", sans-serif;
   display: inline;
@@ -11,6 +12,7 @@
 
 .textoBody {
   color: gray;
+  line-height: 1.6;
 }
 
 .textoShop {
@@ -94,9 +96,8 @@ body .tituloSecundario {
   filter: grayscale(0%);
 }
 
-.footer .redes {
-  display: inline-block;
-  text-align: right;
+.footer {
+  margin: 10px;
 }
 
 .lineaFooter {
@@ -116,8 +117,19 @@ body .tituloSecundario {
   background-color: 0;
 }
 
+.redes {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.logoFoo {
+  display: flex;
+  justify-content: center;
+}
+
 .bodyCont {
-  background-image: url(../assets/bosque_niebla_alien.jpg);
+  background-image: url(../assets/fondo_contacto.jpg);
   background-size: 100vw 100vh;
   background-attachment: fixed;
   margin: 0;
@@ -135,10 +147,33 @@ body .tituloSecundario {
 
 .textBlack {
   color: black;
+}
+
+h3 {
   text-align: center;
   font-size: 50px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   margin-top: 20px;
+}
+
+h4 {
+  font-size: 40px;
+  margin-top: 20px;
+}
+
+.nuCamp {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 70px;
+}
+
+.ivan {
+  border-radius: 10px;
+}
+
+.sponsor {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 input, textarea {
@@ -161,6 +196,106 @@ textarea {
 
 #limpiar {
   background-color: rgba(255, 125, 115, 0.863);
+}
+
+.wrap {
+  display: flex;
+  align-items: center;
+  max-width: 275px;
+  margin: 10px auto;
+}
+
+.tarjeta-wrap {
+  margin: 40px;
+  -webkit-perspective: 800;
+  perspective: 800;
+}
+
+.tarjeta {
+  width: 270px;
+  height: 320px;
+  background: rgb(250, 250, 246);
+  position: relative;
+  transform-style: preserve-3d;
+  transition: 0.7s ease;
+  border-radius: 10px;
+  box-shadow: 0px 10px 15px -5px rgba(66, 66, 66, 0.65);
+}
+
+.frente, .dorso {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  backface-visibility: hidden;
+}
+
+.frente {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card1 {
+  background-image: url(../assets/campeones/bautista_hernandéz.jpeg);
+  background-size: cover;
+}
+
+.card2 {
+  background-image: url(../assets/campeones/gabriel_juarez.jpeg);
+  background-size: cover;
+}
+
+.card3 {
+  background-image: url(../assets/campeones/valentina_holtkamp.jpeg);
+  background-size: cover;
+}
+
+.card4 {
+  background-image: url(../assets/campeones/lautaro_fernandez.jpeg);
+  background-size: cover;
+}
+
+.card5 {
+  background-image: url(../assets/campeones/alejandro_borgogno.jpeg);
+  background-size: cover;
+}
+
+.card6 {
+  background-image: url(../assets/campeones/alejandro_borgogno.jpeg);
+  background-size: cover;
+}
+
+.dorso {
+  transform: rotateY(180deg);
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.tarjeta-wrap:hover .tarjeta {
+  transform: rotateY(180deg);
+}
+
+.slider {
+  aspect-ratio: 10/16;
+  width: 400px;
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  scroll-snap-type: x mandatory;
+}
+
+.slider img {
+  width: 100%;
+  left: 0;
+  position: sticky;
+  object-fit: cover;
+  border-radius: 10px;
+  scroll-snap-align: center;
 }
 
 /*# sourceMappingURL=estilos.css.map */

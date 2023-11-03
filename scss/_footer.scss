@@ -1,8 +1,5 @@
 .footer{
-    .redes{
-        display: inline-block;
-        text-align: right;
-    }
+    margin: 10px;
 }
 .lineaFooter{
     border-bottom: 2px solid $color-texto;
@@ -17,4 +14,13 @@
 } 
 .nada{
     background-color: blue($color: #000000);
+}
+.redes{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.logoFoo{
+    display: flex;
+    justify-content: center;
 }
