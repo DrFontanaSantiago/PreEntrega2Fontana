@@ -21,3 +21,30 @@
     display: flex;
     justify-content: center;
 }
+.link{
+    font-size: 20px;
+    color: gray;
+    text-decoration: none;
+    margin: 5px;
+}
+.alien{
+    text-align: center;
+    font-size: 18px;  
+    margin-bottom: 10px;
+}
+.imagePuno{
+    transition: transform 0,5s ease-in-out;
+}
+.botonPuno:hover .imagePuno {
+    transform: scale(1.2);
+}
+.estasListo {
+    font-family: 'PermanentMarker-Regular', sans-serif;
+    display: inline;
+    color: white;
+    margin-top: 20px;
+    .listo{
+        text-align: center;
+        font-size: 50px;
+    }
+}

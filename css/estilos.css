@@ -1,15 +1,4 @@
 @charset "UTF-8";
-.estasListo {
-  font-family: "PermanentMarker-Regular", sans-serif;
-  display: inline;
-  color: white;
-  margin-top: 20px;
-}
-.estasListo .listo {
-  text-align: center;
-  font-size: 50px;
-}
-
 .textoBody {
   color: gray;
   line-height: 1.6;
@@ -19,25 +8,20 @@
   text-align: center;
 }
 
-.link {
-  font-size: 20px;
-  color: gray;
-  text-decoration: none;
-  margin: 5px;
+.textBlack {
+  color: black;
 }
 
-.alien {
+h3 {
   text-align: center;
-  font-size: 18px;
-  margin-bottom: 10px;
+  font-size: 50px;
+  margin-bottom: 40px;
+  margin-top: 20px;
 }
 
-.imagePuno {
-  transition: transform 0, 5s ease-in-out;
-}
-
-.botonPuno:hover .imagePuno {
-  transform: scale(1.2);
+h4 {
+  font-size: 40px;
+  margin-top: 20px;
 }
 
 * {
@@ -124,6 +108,43 @@ body .tituloSecundario {
   justify-content: center;
 }
 
+.link {
+  font-size: 20px;
+  color: gray;
+  text-decoration: none;
+  margin: 5px;
+}
+
+.alien {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.imagePuno {
+  transition: transform 0, 5s ease-in-out;
+}
+
+.botonPuno:hover .imagePuno {
+  transform: scale(1.2);
+}
+
+.estasListo {
+  font-family: "PermanentMarker-Regular", sans-serif;
+  display: inline;
+  color: white;
+  margin-top: 20px;
+}
+.estasListo .listo {
+  text-align: center;
+  font-size: 50px;
+}
+
+.sponsor {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 .bodyCont {
   background-image: url(../assets/fondo_contacto.jpg);
   background-size: 100vw 100vh;
@@ -138,48 +159,6 @@ body .tituloSecundario {
   box-sizing: border-box;
   margin-top: 20px;
   border-radius: 20px;
-}
-
-.map {
-  width: 900px;
-  margin: auto;
-  background: rgba(0, 0, 0, 0.4);
-  padding: 10px 20px;
-  box-sizing: border-box;
-  margin-top: 20px;
-  border-radius: 20px;
-  margin-bottom: 30px;
-}
-
-.textBlack {
-  color: black;
-}
-
-h3 {
-  text-align: center;
-  font-size: 50px;
-  margin-bottom: 40px;
-  margin-top: 20px;
-}
-
-h4 {
-  font-size: 40px;
-  margin-top: 20px;
-}
-
-.nuCamp {
-  text-align: center;
-  margin-top: 100px;
-  margin-bottom: 70px;
-}
-
-.ivan {
-  border-radius: 10px;
-}
-
-.sponsor {
-  margin-top: 20px;
-  margin-bottom: 20px;
 }
 
 input, textarea {
@@ -202,6 +181,27 @@ textarea {
 
 #limpiar {
   background-color: rgba(255, 125, 115, 0.863);
+}
+
+.map {
+  width: 900px;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+.nuCamp {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 70px;
+}
+
+.ivan {
+  border-radius: 10px;
 }
 
 .wrap {

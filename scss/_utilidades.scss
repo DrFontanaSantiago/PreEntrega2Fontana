@@ -1,13 +1,3 @@
-.estasListo {
-    font-family: 'PermanentMarker-Regular', sans-serif;
-    display: inline;
-    color: white;
-    margin-top: 20px;
-    .listo{
-        text-align: center;
-        font-size: 50px;
-    }
-}
 .textoBody{
     color: gray;
     line-height: 1.6;
@@ -15,21 +5,17 @@
 .textoShop{
     text-align: center;
 }
-.link{
-    font-size: 20px;
-    color: gray;
-    text-decoration: none;
-    margin: 5px;
+.textBlack{
+    color: black;
 }
-.alien{
+h3{
     text-align: center;
-    font-size: 18px;  
-    margin-bottom: 10px;
+    font-size: 50px;
+    margin-bottom: 40px;
+    margin-top: 20px;
 }
-.imagePuno{
-    transition: transform 0,5s ease-in-out;
-}
-.botonPuno:hover .imagePuno {
-    transform: scale(1.2);
+h4{
+    font-size: 40px;
+    margin-top: 20px;
 }
 

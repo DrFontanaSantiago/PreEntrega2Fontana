@@ -1,3 +1,9 @@
+// inicio
+.sponsor{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+// Pagina de contacto
 .bodyCont{
     background-image: url(../assets/fondo_contacto.jpg);
     background-size: 100vw 100vh;
@@ -11,41 +17,6 @@
     box-sizing: border-box;
     margin-top: 20px;
     border-radius: 20px;
-}
-.map{
-    width: 900px;
-    margin: auto;
-    background: rgba(0,0,0,0.4);
-    padding: 10px 20px;
-    box-sizing: border-box;
-    margin-top: 20px;
-    border-radius: 20px;
-    margin-bottom: 30px;
-}
-.textBlack{
-    color: black;
-}
-h3{
-    text-align: center;
-    font-size: 50px;
-    margin-bottom: 40px;
-    margin-top: 20px;
-}
-h4{
-    font-size: 40px;
-    margin-top: 20px;
-}
-.nuCamp{
-    text-align: center;
-    margin-top: 100px;
-    margin-bottom: 70px;
-}
-.ivan{
-    border-radius: 10px;
-}
-.sponsor{
-    margin-top: 20px;
-    margin-bottom: 20px;
 }
 input, textarea{
     width: 100%;
@@ -65,6 +36,25 @@ textarea{
 }
 #limpiar{
     background-color: rgba(255, 125, 115, 0.863);
+}
+.map{
+    width: 900px;
+    margin: auto;
+    background: rgba(0,0,0,0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+// quienes somos
+.nuCamp{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+.ivan{
+    border-radius: 10px;
 }
 .wrap{
     display: flex;
@@ -136,6 +126,7 @@ textarea{
 .tarjeta-wrap:hover .tarjeta{
     transform: rotateY(180deg);
 }
+// entrena con nosotros
 .slider{
     aspect-ratio: 10 / 16;
     width: 400px;
