@@ -127,22 +127,10 @@ textarea{
     transform: rotateY(180deg);
 }
 // entrena con nosotros
-.slider{
-    aspect-ratio: 10 / 16;
-    width: 400px;
-    position: relative;
-    display: flex;
-    overflow: hidden;
-    scroll-snap-type: x mandatory;
+.gal¨{
+    align-items: center;
 }
-.slider img{
-    width: 100%;
-    left: 0;
-    position: sticky;
-    object-fit: cover;
-    border-radius: 10px;
-    scroll-snap-align: center;
-}
+
 // pagina error
 #fondoerror {
     top: 0;
